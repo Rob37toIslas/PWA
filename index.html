@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="manifest" href="./manifest.json">
+    <title>PWA</title>
+</head>
+<body>
+    <center>
+    <h1>Hola mundo,Esto es una PWA</h1>
+    <img src="https://media1.tenor.com/m/AqyLIJ48wQMAAAAC/pedro-racoon.gif" alt="">
+    </center>
+</body>
+<script src="scrip.js"></script>
+<script type="text/javascript">
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("sw.js");
+    }
+  </script>
+</html>
