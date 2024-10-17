@@ -4,19 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
     <link rel="manifest" href="./manifest.json">
     <title>PWA</title>
 </head>
 <body>
-    <center>
-    <h1>Hola mundo,Esto es una PWA</h1>
-    <img src="https://media1.tenor.com/m/AqyLIJ48wQMAAAAC/pedro-racoon.gif" alt="">
-    </center>
+    <header>
+        <h1>App Shell</h1>
+    </header>
+    <main>
+        <p>Hola mundo, esto es una PWA con una estructura básica de App Shell.</p>
+        <img src="https://media1.tenor.com/m/AqyLIJ48wQMAAAAC/pedro-racoon.gif" alt="Imagen">
+
+        <div id="connection-status" style="padding: 10px; color: white; text-align: center;">
+         Holaa
+        </div>
+        
+    </main>
+    <footer>
+        <p>&copy; 2024 Mi PWA</p>
+    </footer>
+    <script src="app.js"></script>
 </body>
-<script src="scrip.js"></script>
-<script type="text/javascript">
-    if ("serviceWorker" in navigator) {
-      navigator.serviceWorker.register("sw.js");
-    }
-  </script>
 </html>
